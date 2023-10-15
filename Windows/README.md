@@ -21,6 +21,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ### List
 
 - [VirtualBox](README.md#virtualbox)
+- [Wget](README.md#wget)
 
 ### Installation
 
@@ -36,4 +37,10 @@ choco install virtualbox -y --force --param "/ExtensionPack"
 
 ```powershell
 choco install virtualbox -y --force
+```
+
+#### Wget
+
+```powershell
+choco install wget -y
 ```
